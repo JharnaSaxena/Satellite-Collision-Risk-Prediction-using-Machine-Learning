@@ -79,4 +79,25 @@ For each of the 5 models:
 Additional:
 - Model Comparison Bar Charts (6 metrics)
 
-## Repository Structure
+Acknowledgments
+We sincerely thank our mentor, Dr. Rajlakshmi Nayak, for her invaluable guidance, constructive feedback, and continuous support throughout this project. Her insights on proper validation methodology, feature selection, and evaluation metrics helped us avoid data leakage and significantly improve our model's performance.
+
+We also thank the European Space Agency (ESA) for providing the dataset and Kaggle for hosting the competition.
+
+Authors
+Jharna Saxena (Primary Author)
+
+Nidhish Tripathi (Contributor)
+
+Prateek Saxena (Contributor)
+
+Mentor
+Dr. Rajlakshmi Nayak
+Department of Computer Science
+JK Lakshmipat University, Jaipur
+
+Course
+CS1138 – Machine Learning Project | Year: March 2026
+
+License
+All Rights Reserved – For academic submission only.
