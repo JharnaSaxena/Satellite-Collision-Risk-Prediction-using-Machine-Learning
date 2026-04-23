@@ -138,9 +138,17 @@ Additional:
 
 ---
 
-## 6. How to Run
+## 6. Limitations & Future Work
+No temporal modelling – used only latest CDM (future: LSTM/Transformers)
 
-### Requirements
+Class imbalance (1:15) – handled only by stratified sampling (future: SMOTE, cost-sensitive learning)
 
-```bash
-pip install -r requirements.txt
+No ground-truth maneuver labels – future: synthetic data with COLGen framework
+
+## 7. Conclusion
+In summary, gradient boosting with proper validation and classification-focused evaluation delivers state-of-the-art collision risk detection, suitable for real-world early warning systems. The model achieves 98.89% recall with only 17 false negatives, demonstrating its effectiveness for this safety-critical application.
+
+## 8. Acknowledgments
+We sincerely thank our mentor, Dr. Rajlakshmi Nayak, for her invaluable guidance, constructive feedback, and continuous support throughout this project. Her insights on proper validation methodology, feature selection, and evaluation metrics helped us avoid data leakage and significantly improve our model's performance.
+
+We also thank the European Space Agency (ESA) for providing the dataset and Kaggle for hosting the competition.
